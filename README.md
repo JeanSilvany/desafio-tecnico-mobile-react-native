@@ -1,33 +1,36 @@
-# Desafio Técnico Mobile React Native - Le labs
- 
-Descrição:
- 
-Precisamos construir um aplicativo com as features básicas de um e-commerce onde  os usuários possam ver os produtos e criar um carrinho funcional.
-Neste repositório existe um arquivo data.js com a lista de produtos e o formato dos dados que devem ser utilizados neste desafio.
- 
-O layout do aplicativo é livre. O layout deve apenas ser consistente e funcional.
- 
-Será necessário existir uma tela home com a lista de produtos e informações básicas para que os usuários consigam ver os produtos disponíveis, exibindo as informações de imagem do produto em miniatura, nome e preço.
- 
-Será necessário existir uma tela de detalhe do produto exibindo informações detalhadas como a imagem do produto ampliada, nome, preço e descrição. Juntamente com um botão de adicionar o item ao carrinho.
-Obs: não é necessária a tratativa da quantidade do produto nesta tela. Cada clique no botão adiciona um item, caso o item já exista no carrinho, não adicione.
- 
-Por fim, será necessário existir a tela do carrinho onde os usuários possam visualizar os itens adicionados e excluir um item. Deve haver um botão de checkout que, ao ser clicado, organiza as informações do checkout em um payload e o exibe via console.log().
- 
-Todos os dados desta aplicação serão mantidos a nível de estado. Utilize gerenciamento de estados locais, Context API ou outra ferramenta que julgar necessária para o desenvolvimento.
- 
-Requisitos:
- 
-* Desenvolver uma aplicação usando React Native;
-* Clonar este repositório, criar uma nova branch e abrir um pull request para a main;
- 
-Serão avaliados os seguintes itens:
- 
-* Clareza do código;
-* Estrutura criada para a aplicação;
-* Se os requisitos descritos acima foram atendidos;
-* Se foram utilizadas as boas práticas de desenvolvimento React Native;
-* Se possui descrição clara de como montar o ambiente local e realizar os testes (se houverem);
-* O uso de typescript será um diferencial;
- 
-Em caso de dúvidas sobre o desafio, entre em contato.
+# Desafio-tecnico-mobile-react-native LeLabs
+
+### Pré-requisitos
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+
+### 🎲 Rodando o Aplicativo (Emulator | Device)
+
+```bash
+# Clone este repositório
+$ git clone <git@github.com:JeanSilvany/desafio-tecnico-mobile-react-native.git>
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd Digital_Republic_Code_Challenge
+
+# Instale as dependências
+$ yarn install | npm install
+
+# Caso utilize plataforma iOS
+$ cd ios
+$ pod install
+
+# Execute a aplicação em modo de desenvolvimento
+$ react-native start
+
+# O servidor inciará na porta:8081
+```
+
+### 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- [React Native](https://reactnative.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
