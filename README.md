@@ -13,7 +13,7 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 $ git clone <git@github.com:JeanSilvany/desafio-tecnico-mobile-react-native.git>
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd Digital_Republic_Code_Challenge
+$ cd desafio-tecnico-mobile-react-native
 
 # Instale as dependências
 $ yarn install | npm install
